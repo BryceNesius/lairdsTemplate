@@ -1,0 +1,37 @@
+@import "~bootstrap/scss/bootstrap";
+
+/*  *
+  * Variables can be set using SCSS
+  *
+  * */
+// $primary: rgb(223,132,83);
+// $primary-light: rgb(254,230,213);
+
+#root{
+    flex-direction: column;
+    display: flex;
+    width: 100vw;
+    min-height: 80vh;
+  }
+  
+.submit-button{
+    float: center;
+    width: 80vw;
+    border-radius: 20px;
+    margin-bottom: 10vw;
+    border-color: $primary;
+    background-color: $primary;
+  }
+
+  .fill-vertical {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    flex: 1;
+  }
+
+  .center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

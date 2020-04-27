@@ -1,0 +1,19 @@
+// tsconfig.json
+// assuming your ts sources are in ./src/
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "baseUrl": "./src",
+        "noImplicitAny": false,
+        "paths": {
+            "~*": [
+                "./*"
+            ]
+        },
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
